@@ -1,0 +1,29 @@
+#movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.movieCard {
+  width: 18rem;
+  margin: 10px;
+  padding: 1.5rem;
+}
+
+#srchMv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#srchMov {
+  width: 18rem;
+  margin: 10px;
+  padding: 1.5rem;
+}
+.dataCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movdata {
+  margin-right: 0.5rem;
+}

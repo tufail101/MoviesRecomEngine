@@ -28,7 +28,7 @@ const showMovies = async (movies) => {
 const fetchMovieByQuery = async (query) => {
   document.getElementById("srchMv").innerHTML = "";
   let response = await fetch(
-    `http://www.omdbapi.com/?s=${query}&apikey=c8a70cb7`
+    `https://www.omdbapi.com/?s=${query}&apikey=c8a70cb7`
   );
 
   let data = await response.json();
@@ -50,7 +50,7 @@ searchBtn.addEventListener("click", () => {
 });
 const ShowMoviesOnHomePage = async () => {
   let response = await fetch(
-    "http://www.omdbapi.com/?s=best&y=2024&apikey=c8a70cb7"
+    "https://www.omdbapi.com/?s=best&y=2024&apikey=c8a70cb7"
   );
 
   let data = await response.json();
